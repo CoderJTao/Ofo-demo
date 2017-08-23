@@ -1,0 +1,479 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		038025B2BFF22CA3B93B6D90 /* Pods_Ofo_demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4938A5910EEF56BDD9E6442 /* Pods_Ofo_demo.framework */; };
+		C8167DD01F1E03DF006365B6 /* GiftVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8167DCF1F1E03DF006365B6 /* GiftVC.swift */; };
+		C8167DD41F1E095E006365B6 /* UserCenterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8167DD31F1E095E006365B6 /* UserCenterVC.swift */; };
+		C821A9981F4302C40052B359 /* PassWordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C821A9961F4302C40052B359 /* PassWordVC.swift */; };
+		C821A9991F4302C40052B359 /* PassWordVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = C821A9971F4302C40052B359 /* PassWordVC.xib */; };
+		C83409AC1F218E0200EE1C95 /* JTScanVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C83409AB1F218E0200EE1C95 /* JTScanVC.swift */; };
+		C83409AE1F21A2CD00EE1C95 /* CodeScan.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C83409AD1F21A2CD00EE1C95 /* CodeScan.bundle */; };
+		C839D1081F1EF6D400D28E0C /* WrongVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C839D1071F1EF6D400D28E0C /* WrongVC.swift */; };
+		C839D1101F1F3DBB00D28E0C /* MyPinAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C839D10F1F1F3DBB00D28E0C /* MyPinAnnotation.swift */; };
+		C83F21A21F177B6100DB1DE5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C83F21A11F177B6100DB1DE5 /* AppDelegate.swift */; };
+		C83F21A41F177B6100DB1DE5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C83F21A31F177B6100DB1DE5 /* ViewController.swift */; };
+		C83F21A71F177B6100DB1DE5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C83F21A51F177B6100DB1DE5 /* Main.storyboard */; };
+		C83F21AA1F177B6100DB1DE5 /* Ofo_demo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C83F21A81F177B6100DB1DE5 /* Ofo_demo.xcdatamodeld */; };
+		C83F21AC1F177B6100DB1DE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C83F21AB1F177B6100DB1DE5 /* Assets.xcassets */; };
+		C83F21AF1F177B6100DB1DE5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C83F21AD1F177B6100DB1DE5 /* LaunchScreen.storyboard */; };
+		C84ADD6F1F1E486400145BAD /* UserSonVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C84ADD6D1F1E486400145BAD /* UserSonVC.swift */; };
+		C8BC80E81F24840D00369D5F /* JTKeyBoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8BC80E71F24840D00369D5F /* JTKeyBoardView.swift */; };
+		C8BC80EA1F24841C00369D5F /* JTKeyBoardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C8BC80E91F24841B00369D5F /* JTKeyBoardView.xib */; };
+		C8BC80EE1F24F1F900369D5F /* UIColor+category.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8BC80ED1F24F1F900369D5F /* UIColor+category.swift */; };
+		C8BE50541F21FB060062F8F9 /* HandNumberVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8BE50521F21FB060062F8F9 /* HandNumberVC.swift */; };
+		C8BE50551F21FB060062F8F9 /* HandNumberVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = C8BE50531F21FB060062F8F9 /* HandNumberVC.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1FB2FF577DD969235104AE18 /* Pods-Ofo-demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ofo-demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-Ofo-demo/Pods-Ofo-demo.release.xcconfig"; sourceTree = "<group>"; };
+		B22C8E10DD832EF45AC440D3 /* Pods-Ofo-demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ofo-demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Ofo-demo/Pods-Ofo-demo.debug.xcconfig"; sourceTree = "<group>"; };
+		B4938A5910EEF56BDD9E6442 /* Pods_Ofo_demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ofo_demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8167DCF1F1E03DF006365B6 /* GiftVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GiftVC.swift; sourceTree = "<group>"; };
+		C8167DD31F1E095E006365B6 /* UserCenterVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserCenterVC.swift; sourceTree = "<group>"; };
+		C821A9961F4302C40052B359 /* PassWordVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PassWordVC.swift; sourceTree = "<group>"; };
+		C821A9971F4302C40052B359 /* PassWordVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PassWordVC.xib; sourceTree = "<group>"; };
+		C83409AB1F218E0200EE1C95 /* JTScanVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JTScanVC.swift; sourceTree = "<group>"; };
+		C83409AD1F21A2CD00EE1C95 /* CodeScan.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = CodeScan.bundle; sourceTree = "<group>"; };
+		C839D1071F1EF6D400D28E0C /* WrongVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WrongVC.swift; sourceTree = "<group>"; };
+		C839D1091F1F028800D28E0C /* Ofo-demo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Ofo-demo-Bridging-Header.h"; sourceTree = "<group>"; };
+		C839D10E1F1F2D6700D28E0C /* Location.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Location.gpx; sourceTree = "<group>"; };
+		C839D10F1F1F3DBB00D28E0C /* MyPinAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyPinAnnotation.swift; sourceTree = "<group>"; };
+		C83F219E1F177B6100DB1DE5 /* Ofo-demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ofo-demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C83F21A11F177B6100DB1DE5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C83F21A31F177B6100DB1DE5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C83F21A61F177B6100DB1DE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C83F21A91F177B6100DB1DE5 /* Ofo_demo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Ofo_demo.xcdatamodel; sourceTree = "<group>"; };
+		C83F21AB1F177B6100DB1DE5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C83F21AE1F177B6100DB1DE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C83F21B01F177B6100DB1DE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C84ADD6D1F1E486400145BAD /* UserSonVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserSonVC.swift; sourceTree = "<group>"; };
+		C8BC80E71F24840D00369D5F /* JTKeyBoardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JTKeyBoardView.swift; sourceTree = "<group>"; };
+		C8BC80E91F24841B00369D5F /* JTKeyBoardView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JTKeyBoardView.xib; sourceTree = "<group>"; };
+		C8BC80ED1F24F1F900369D5F /* UIColor+category.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+category.swift"; sourceTree = "<group>"; };
+		C8BE50521F21FB060062F8F9 /* HandNumberVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HandNumberVC.swift; sourceTree = "<group>"; };
+		C8BE50531F21FB060062F8F9 /* HandNumberVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HandNumberVC.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C83F219B1F177B6100DB1DE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				038025B2BFF22CA3B93B6D90 /* Pods_Ofo_demo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		49299016833B85CFAEE6F89C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B4938A5910EEF56BDD9E6442 /* Pods_Ofo_demo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BEFE5C937637AD4250BC9B6E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B22C8E10DD832EF45AC440D3 /* Pods-Ofo-demo.debug.xcconfig */,
+				1FB2FF577DD969235104AE18 /* Pods-Ofo-demo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C83F21951F177B6100DB1DE5 = {
+			isa = PBXGroup;
+			children = (
+				C839D10E1F1F2D6700D28E0C /* Location.gpx */,
+				C83F21A01F177B6100DB1DE5 /* Ofo-demo */,
+				C83F219F1F177B6100DB1DE5 /* Products */,
+				BEFE5C937637AD4250BC9B6E /* Pods */,
+				49299016833B85CFAEE6F89C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C83F219F1F177B6100DB1DE5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C83F219E1F177B6100DB1DE5 /* Ofo-demo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C83F21A01F177B6100DB1DE5 /* Ofo-demo */ = {
+			isa = PBXGroup;
+			children = (
+				C83F21A11F177B6100DB1DE5 /* AppDelegate.swift */,
+				C83F21A31F177B6100DB1DE5 /* ViewController.swift */,
+				C839D10F1F1F3DBB00D28E0C /* MyPinAnnotation.swift */,
+				C83F21A51F177B6100DB1DE5 /* Main.storyboard */,
+				C83409AD1F21A2CD00EE1C95 /* CodeScan.bundle */,
+				C8167DD31F1E095E006365B6 /* UserCenterVC.swift */,
+				C84ADD6D1F1E486400145BAD /* UserSonVC.swift */,
+				C8167DCF1F1E03DF006365B6 /* GiftVC.swift */,
+				C839D1071F1EF6D400D28E0C /* WrongVC.swift */,
+				C83409AB1F218E0200EE1C95 /* JTScanVC.swift */,
+				C8BE50521F21FB060062F8F9 /* HandNumberVC.swift */,
+				C8BE50531F21FB060062F8F9 /* HandNumberVC.xib */,
+				C821A9961F4302C40052B359 /* PassWordVC.swift */,
+				C821A9971F4302C40052B359 /* PassWordVC.xib */,
+				C8BC80E71F24840D00369D5F /* JTKeyBoardView.swift */,
+				C8BC80E91F24841B00369D5F /* JTKeyBoardView.xib */,
+				C8BC80ED1F24F1F900369D5F /* UIColor+category.swift */,
+				C83F21AB1F177B6100DB1DE5 /* Assets.xcassets */,
+				C83F21AD1F177B6100DB1DE5 /* LaunchScreen.storyboard */,
+				C83F21B01F177B6100DB1DE5 /* Info.plist */,
+				C83F21A81F177B6100DB1DE5 /* Ofo_demo.xcdatamodeld */,
+				C839D1091F1F028800D28E0C /* Ofo-demo-Bridging-Header.h */,
+			);
+			path = "Ofo-demo";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C83F219D1F177B6100DB1DE5 /* Ofo-demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C83F21B31F177B6100DB1DE5 /* Build configuration list for PBXNativeTarget "Ofo-demo" */;
+			buildPhases = (
+				05D030E8FDD0844586758B89 /* [CP] Check Pods Manifest.lock */,
+				C83F219A1F177B6100DB1DE5 /* Sources */,
+				C83F219B1F177B6100DB1DE5 /* Frameworks */,
+				C83F219C1F177B6100DB1DE5 /* Resources */,
+				433F64E95D8D3CCFE22D04D2 /* [CP] Embed Pods Frameworks */,
+				2E83C78E5D44FCB5391E0427 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Ofo-demo";
+			productName = "Ofo-demo";
+			productReference = C83F219E1F177B6100DB1DE5 /* Ofo-demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C83F21961F177B6100DB1DE5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = jiangT;
+				TargetAttributes = {
+					C83F219D1F177B6100DB1DE5 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = KL3TMC97YB;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = C83F21991F177B6100DB1DE5 /* Build configuration list for PBXProject "Ofo-demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C83F21951F177B6100DB1DE5;
+			productRefGroup = C83F219F1F177B6100DB1DE5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C83F219D1F177B6100DB1DE5 /* Ofo-demo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C83F219C1F177B6100DB1DE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C83F21AF1F177B6100DB1DE5 /* LaunchScreen.storyboard in Resources */,
+				C83F21AC1F177B6100DB1DE5 /* Assets.xcassets in Resources */,
+				C821A9991F4302C40052B359 /* PassWordVC.xib in Resources */,
+				C8BE50551F21FB060062F8F9 /* HandNumberVC.xib in Resources */,
+				C8BC80EA1F24841C00369D5F /* JTKeyBoardView.xib in Resources */,
+				C83F21A71F177B6100DB1DE5 /* Main.storyboard in Resources */,
+				C83409AE1F21A2CD00EE1C95 /* CodeScan.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		05D030E8FDD0844586758B89 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		2E83C78E5D44FCB5391E0427 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Ofo-demo/Pods-Ofo-demo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		433F64E95D8D3CCFE22D04D2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Ofo-demo/Pods-Ofo-demo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C83F219A1F177B6100DB1DE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C839D1101F1F3DBB00D28E0C /* MyPinAnnotation.swift in Sources */,
+				C84ADD6F1F1E486400145BAD /* UserSonVC.swift in Sources */,
+				C8BE50541F21FB060062F8F9 /* HandNumberVC.swift in Sources */,
+				C821A9981F4302C40052B359 /* PassWordVC.swift in Sources */,
+				C839D1081F1EF6D400D28E0C /* WrongVC.swift in Sources */,
+				C8BC80E81F24840D00369D5F /* JTKeyBoardView.swift in Sources */,
+				C83F21A41F177B6100DB1DE5 /* ViewController.swift in Sources */,
+				C83F21AA1F177B6100DB1DE5 /* Ofo_demo.xcdatamodeld in Sources */,
+				C8BC80EE1F24F1F900369D5F /* UIColor+category.swift in Sources */,
+				C83F21A21F177B6100DB1DE5 /* AppDelegate.swift in Sources */,
+				C83409AC1F218E0200EE1C95 /* JTScanVC.swift in Sources */,
+				C8167DD41F1E095E006365B6 /* UserCenterVC.swift in Sources */,
+				C8167DD01F1E03DF006365B6 /* GiftVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C83F21A51F177B6100DB1DE5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C83F21A61F177B6100DB1DE5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C83F21AD1F177B6100DB1DE5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C83F21AE1F177B6100DB1DE5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C83F21B11F177B6100DB1DE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C83F21B21F177B6100DB1DE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C83F21B41F177B6100DB1DE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B22C8E10DD832EF45AC440D3 /* Pods-Ofo-demo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = KL3TMC97YB;
+				INFOPLIST_FILE = "Ofo-demo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xueduoduo.Ofo-demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Ofo-demo/Ofo-demo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		C83F21B51F177B6100DB1DE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1FB2FF577DD969235104AE18 /* Pods-Ofo-demo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = KL3TMC97YB;
+				INFOPLIST_FILE = "Ofo-demo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xueduoduo.Ofo-demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Ofo-demo/Ofo-demo-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C83F21991F177B6100DB1DE5 /* Build configuration list for PBXProject "Ofo-demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C83F21B11F177B6100DB1DE5 /* Debug */,
+				C83F21B21F177B6100DB1DE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C83F21B31F177B6100DB1DE5 /* Build configuration list for PBXNativeTarget "Ofo-demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C83F21B41F177B6100DB1DE5 /* Debug */,
+				C83F21B51F177B6100DB1DE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C83F21A81F177B6100DB1DE5 /* Ofo_demo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C83F21A91F177B6100DB1DE5 /* Ofo_demo.xcdatamodel */,
+			);
+			currentVersion = C83F21A91F177B6100DB1DE5 /* Ofo_demo.xcdatamodel */;
+			path = Ofo_demo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C83F21961F177B6100DB1DE5 /* Project object */;
+}
